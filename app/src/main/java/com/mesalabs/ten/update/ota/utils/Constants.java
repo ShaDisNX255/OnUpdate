@@ -19,7 +19,7 @@ public class Constants {
 
     // Manifest
     //public static final String OTA_MANIFEST_URL = "https://gitlab.com/BlackMesa123/on-otamanifest/raw/master/" + PropUtils.get(PROP_ROM_BUILD, "0") + "/rom-manifest.xml";
-    public static final String OTA_MANIFEST_URL = "https://raw.githubusercontent.com/ShaDisNX255/NcX_OnUpdate/main/a52sxq/manifest.xml";
+    public static final String OTA_MANIFEST_URL = "https://raw.githubusercontent.com/ShaDisNX255/NcX_OnUpdate/main/a71/manifest.xml";
 
     // Broadcast intents
     public static final String INTENT_MANIFEST_LOADED = "com.mesalabs.ten.ota.MANIFEST_LOADED";
