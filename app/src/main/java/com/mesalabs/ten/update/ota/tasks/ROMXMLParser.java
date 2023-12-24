@@ -165,7 +165,7 @@ public class ROMXMLParser extends DefaultHandler {
         }
 
         if (tagFileSize) {
-            PreferencesUtils.ROM.setFileSize(Integer.parseInt(input));
+            PreferencesUtils.ROM.setFileSize(Long.parseLong(input));
             tagFileSize = false;
             LogUtils.d(TAG, "Filesize = " + input);
         }
